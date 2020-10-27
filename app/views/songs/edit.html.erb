@@ -1,0 +1,14 @@
+<h1>Edit Song Form </h1>
+
+<%= form_for(@song) do |t|%>
+<%= t.label :name%>
+<%= t.text_field :name%>
+
+<%=t.label :artist_id%>
+<%=t.number_field :artist_id%>
+
+<%=t.label :genre_id %>
+<%=t.number_field :artist_id%>
+
+<%=t.submit%>
+<%end%>
